@@ -4,27 +4,27 @@
     <groupId>org.apache.lucene.morphology</groupId>
     <artifactId>morphology</artifactId>
     <packaging>pom</packaging>
-    <version>1.4</version>
+    <version>1.5</version>
     <name>morphology</name>
     <url>http://maven.apache.org</url>
 
     <scm>
-        <connection>scm:git:https://github.com/AKuznetsov/russianmorphology.git</connection>
-        <developerConnection>scm:git:git@github.com:AKuznetsov/russianmorphology.git</developerConnection>
-        <url>https://github.com/AKuznetsov/russianmorphology</url>
+        <connection>scm:git:https://github.com/cstdevacc/russianmorphology.git</connection>
+        <developerConnection>scm:git:git@github.com:cstdevacc/russianmorphology.git</developerConnection>
+        <url>https://github.com/cstdevacc/russianmorphology</url>
         <tag>HEAD</tag>
     </scm>
 
     <properties>
-        <lucene.version>7.2.1</lucene.version>
-        <morphology.version>1.4</morphology.version>
+        <lucene.version>7.5.0</lucene.version>
+        <morphology.version>1.5</morphology.version>
         <junit.version>4.12</junit.version>
     </properties>
 
     <distributionManagement>
         <repository>
             <id>bintray</id>
-            <url>https://api.bintray.com/maven/akuznetsov/russianmorphology/morphology</url>
+            <url>https://api.bintray.com/maven/cstdevacc/russianmorphology/morphology</url>
         </repository>
     </distributionManagement>
 
@@ -69,7 +69,7 @@
         </repository>
         <repository>
             <id>bintray</id>
-            <url>http://dl.bintray.com/akuznetsov/russianmorphology</url>
+            <url>http://dl.bintray.com/cstdevacc/russianmorphology</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
